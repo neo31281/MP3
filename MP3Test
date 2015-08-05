@@ -1,0 +1,16 @@
+public class MP3Test
+{
+	public static void main(String[] args)
+	{
+
+		MP3[] songs = new MP3[4];
+
+		songs[0] = new MP3("Shakira", "Lonely" , 182);
+		songs[1] = new MP3("Britney", "Lovely" , 122);
+		songs[2] = new MP3("Michael", "Cool" , 282);
+		songs[3] = new MP3("Modonna", "Miss you" , 82);
+
+		for(int i=0; i<songs.length; i++)
+			System.out.println(songs[i]);
+	}
+}
